@@ -1,9 +1,9 @@
 import { GraphQLServer } from "graphql-yoga";
-import resolvers from "./graphql/resolvers2";
+import resolvers from "./resolvers2";
 const PORT = process.env.PORT || 4000;
 const server = new GraphQLServer({
   port: PORT,
-  typeDefs: "graphql/schema.graphql",
+  typeDefs: "src/schema.graphql",
   resolvers
 });
 

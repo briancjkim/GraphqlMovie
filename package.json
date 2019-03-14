@@ -8,16 +8,16 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
-    "graphql-yoga": "^1.16.7",
-    "node-fetch": "^2.3.0",
-    "nodemon": "^1.18.7",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-3": "^6.24.1"
+    "babel-preset-stage-3": "^6.24.1",
+    "graphql-yoga": "^1.16.7",
+    "node-fetch": "^2.3.0",
+    "nodemon": "^1.18.7"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js",
-    "start": "node index.js"
+    "dev": "nodemon --exec babel-node  src/index.js",
+    "start": "babel-node src/index.js"
   },
   "devDependencies": {},
   "engines": {
