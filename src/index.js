@@ -13,6 +13,6 @@ const appOptions = {
   endpoint: GRAPHQL_ENDPOINT
 };
 
-app.start(appOptions, ({ port }) =>
-  console.log(`graphql server Running on port ${port}`)
+app.start(appOptions, () =>
+  console.log(`graphql server Running on port ${PORT}`)
 );
