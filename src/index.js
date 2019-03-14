@@ -7,8 +7,8 @@ const GRAPHQL_ENDPOINT = "/graphql";
 
 const serverOptions = {
   port: PORT,
-  palyground: PLAYGROUND_ENDPOINT,
-  endPoint: GRAPHQL_ENDPOINT
+  playground: PLAYGROUND_ENDPOINT,
+  endpoint: GRAPHQL_ENDPOINT
 };
 const server = new GraphQLServer({
   port: PORT,
